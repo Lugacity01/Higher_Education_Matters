@@ -12,7 +12,7 @@ const Navbar = () => {
 
   const menus = [
     { path: "/", label: "Home" },
-    { path: "/about", label: "About Us" },
+    { path: "/about-us", label: "About Us" },
     { path: "/program", label: "Program" },
     { path: "/success-stories", label: "Success Stories" },
     { path: "/resources", label: "Resources" },

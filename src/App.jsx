@@ -1,11 +1,11 @@
 import "./App.css";
 import {createBrowserRouter,RouterProvider,} from "react-router-dom";
 import Home from "./pages/Home";
-import About from "./pages/about";
-import Program from "./pages/program";
-import Success from "./pages/success";
-import Resources from "./pages/resources";
-import Contact from "./pages/contact";
+import About from "./pages/About";
+import Program from "./pages/Program";
+import Success from "./pages/Success";
+import Resources from "./pages/Resources";
+import Contact from "./pages/Contact";
 import AppLayout from "./layouts/AppLayout";
 import GetStarted from "./pages/GetStarted";
 
@@ -23,7 +23,7 @@ function App() {
               element: <Home/>,
             },
             {
-              path: '/about',
+              path: '/about-us',
               element: <About/>,
             },
             {
