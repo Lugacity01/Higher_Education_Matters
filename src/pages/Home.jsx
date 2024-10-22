@@ -13,12 +13,11 @@ import explorebackground from '../assets/images/explorebackground.svg'
 import blogerTeacher from '../assets/images/bloger_teacher.png'
 import { Button } from "@/components/ui/button"
 import ProgramCard from "@/components/Home/ProgramCard"
-// import frequentlyasked from "@/components/Home/frequentlyasked"
 import {BlogTips, StudentTestimonial, SupportServicesCard} from "@/components/Home/SupportServicesCard"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
 import { Link } from "react-router-dom"
-import FrequentlyAsked from "@/components/Home/frequentlyasked"
+import FrequentlyAsked from "@/components/Home/FrequentlyAsked"
 
 const services = [
   {
